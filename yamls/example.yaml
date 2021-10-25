@@ -1,0 +1,7 @@
+example_image_info2excel:
+    image_dir: ./example_images
+    image_ext: jpg
+    image_magnification: 40
+    processing_magnification: 1.25 # leave it
+    ncpus: 10
+    save_xls_path: ./save/example.xlsx
