@@ -1,1 +1,10 @@
-# requirements: umap-learn, xlsxwriter, scikit-image, pillow, yaml, opencv-python, numpy
+# requirements
+umap-learn, xlsxwriter, scikit-image, pillow, yaml, opencv-python, numpy
+ 
+# Example 1: Write Images Info to Excel
+ `$ python imageInfo2excel.py yamls/example.yaml`
+ 
+# Example 2: Get Umap Result Image from Multi-Site Cohors Images Info Excel
+ `$ python excel2umap.py yamls/example4umap.yaml`
+
+# Check the yamls files, change the parameters for your tasks.
